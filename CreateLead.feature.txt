@@ -1,0 +1,20 @@
+Feature: CreateLead functionality for LeafTaps
+
+Scenario: To edit and change the company name
+Given Open the chrome
+And Login the URL
+And Enter the username "DemoSalesManager"
+And Enter the  password as "crmsfa"
+When Click on the submit button
+Then Welcome page should open
+Given Click on the CRM/SFA option
+Then My home page should open
+When Click on the Leads menu
+Then My Lead page should open
+When Click on the Create Lead option
+Then Create Lead homepage should open
+When Enter the Company name
+When Enter the First Name
+When Enter the Last Name
+When CLick on the Submit button
+Then A new lead should be created

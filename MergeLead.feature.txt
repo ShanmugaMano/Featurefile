@@ -1,0 +1,28 @@
+Feature: Merge functionality for LeafTaps
+
+Scenario: Merge TestLeaf
+Given Open the chrome
+And Login the URL
+And Enter the username "DemoSalesManager"
+And Enter the  password as "crmsfa"
+When Click on the submit button
+Then Welcome page should open
+Given Click on the CRM/SFA option
+Then My home page should open
+When Click on the Leads menu
+Then My Lead page should open
+When Click on the merge lead
+Then Merge lead page should open
+When Click on the first window handle
+Then Find Lead Window opens
+When Enter the first name as a
+When Click on the find lead
+Then A list of name will appear
+When Select a first name
+When Click the To lead window handle
+Then Find Lead Window opens
+When Enter the second name as a
+When Click on the find lead
+Then A list of name will appear
+When Select a first name
+When Click on the merge button

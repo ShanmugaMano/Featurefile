@@ -1,0 +1,24 @@
+Feature: Delete functionality for LeafTaps
+
+Scenario: To delete the lead record
+Given Open the chrome
+And Login the URL
+And Enter the username "DemoSalesManager"
+And Enter the  password as "crmsfa"
+When Click on the submit button
+Then Welcome page should open
+Given Click on the CRM/SFA option
+Then My home page should open
+When Click on the Leads menu
+Then My Lead page should open
+When Click on the Find Lead
+Then Find By mini open should open
+When Click on the phone option
+Then Phone number text field should open
+When Number 9 is entered in phone number text field
+When Click on the Find Lead option
+Then The respected lead appears
+When Click on the Corresponding leadID
+Then View Lead page should appear
+When Click on the Delete option
+Then My Lead page should open

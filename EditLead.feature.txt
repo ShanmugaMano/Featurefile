@@ -1,0 +1,27 @@
+Feature: Edit functionality for LeafTaps
+
+Scenario: To edit and change the company name
+Given Open the chrome
+And Login the URL
+And Enter the username "DemoSalesManager"
+And Enter the  password as "crmsfa"
+When Click on the submit button
+Then Welcome page should open
+Given Click on the CRM/SFA option
+Then My home page should open
+When Click on the Leads menu
+Then My Lead page should open
+When Click on the Find Lead
+Then Find By mini open should open
+When Click on the phone option
+Then Phone number text field should open
+When Number 99 is entered in phone number text field
+When Click on the Find Lead option
+Then The respected lead appears
+When Click on the Corresponding leadID
+Then View Lead page should appear
+When Click on the Edit option
+Then Edit page should open
+When Change the company name to
+When Click on the update option
+Then The company name should be updated
